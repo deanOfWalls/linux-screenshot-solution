@@ -1,8 +1,10 @@
-After recent updates, my old screenshot setup started showing unbearable visual artifacts, so I switched to a cleaner, headless setup. I wanted to maintain the ability to:
-- Capture only the active display (where the cursor is) for full-screen screenshots.
-- Perform manual select area captures.
-- Pipe all screenshots directly to the clipboard.
-- Avoid any annoying GUI popups or windows.
+This solution provides a streamlined, headless approach to taking screenshots on Linux, specifically tailored for users who:
+- Want to take screenshots without dealing with graphical user interface (GUI) popups.
+- Need full-screen screenshots of only the active display (the one where the cursor is).
+- Want to manually select areas for screenshots when needed.
+- Prefer having screenshots automatically copied to the clipboard instead of being saved to files.
+
+It utilizes tools like `scrot`, `xdotool`, `xrandr`, and `xclip` to achieve this functionality without unnecessary popups or windows.
 
 ### Tools:
 - `scrot`: for screenshots
